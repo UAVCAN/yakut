@@ -15,7 +15,7 @@ DEPS_DIR = ROOT_DIR / "tests" / "deps"
 assert DEPS_DIR.is_dir(), "Invalid configuration"
 
 
-PYTHONS = ["3.8", "3.9", "3.10", "3.11"]
+PYTHONS = ["3.8", "3.9", "3.10", "3.11", "3.12"]
 
 
 @nox.session(python=False)
