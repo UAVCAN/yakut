@@ -68,7 +68,7 @@ jobs:
           # The job status is per matrix item, which is super convenient.
           name: ${{github.job}}-#${{strategy.job-index}}-${{job.status}}-${{join(matrix.*, ',')}}
           path: "**/*.log"
-          retention-days: 7
+          retention-days: 90
 
   yakut-release:
     name: Release Yakut
